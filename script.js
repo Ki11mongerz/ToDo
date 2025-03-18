@@ -16,7 +16,7 @@ function addTodo(event) {
     newTodo.classList.add("todo-item");
     todoDiv.appendChild(newTodo);
     
-    // saveLocalTodos(todoInput.value);
+    saveLocalTodos(todoInput.value);
     
     const completedButton = document.createElement("button");
     completedButton.innerHTML = '<i class="fas fa-check-circle"></li>';
